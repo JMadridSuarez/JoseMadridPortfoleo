@@ -8,7 +8,7 @@ export const Header = () => {
     <div className='h-28 flex justify-center md:justify-between items-center md:flex-row  flex-col '>
       <div className='h-20  md:h-full md:w-8/12 flex justify-center md:justify-between items-center xl:w-10/12 xl:mr-4'>
         <Logo/>
-        <DayNNightMode/>
+        
       </div>
      
       <Nav/>
