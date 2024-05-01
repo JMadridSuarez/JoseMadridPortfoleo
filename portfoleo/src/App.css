@@ -1,0 +1,125 @@
+.icon-top{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+}
+
+.nav-icon-house svg{ 
+  
+  transition: all 0.5s;
+}
+.nav-icon-house svg:hover{
+  width: 50px;
+  height: 50px;
+}
+.nav-icon svg{
+  transition: all 0.5s;
+}
+.nav-icon svg:hover{
+  transform: rotatez(90deg);
+}
+.secret-text{
+  opacity: 0;
+}
+.secret-text:hover{
+  opacity: 1;
+}
+/*----------------*/
+.icons-container a{
+  display: flex;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.github svg{
+  fill: rgba(172, 172, 172, 0.7);
+  transition: all 0.5s;
+  
+  
+}
+.github svg:hover{
+  width: 68px;
+  height: 68px;
+  fill: aliceblue;
+  
+}
+.linkedin svg{
+  fill: rgba(172, 172, 172, 0.7);
+  transition: all 0.5s;
+}
+.linkedin svg:hover{
+  fill: aliceblue;
+  width: 68px;
+height: 68px;
+}
+.instagram svg{
+  fill: rgba(172, 172, 172, 0.7);
+  transition: all 0.5s;
+}
+
+.instagram svg:hover{
+    fill: aliceblue;
+    width: 68px;
+  height: 68px;
+  }
+  
+  /*------------------*/
+
+
+.footer-github svg{
+  fill: rgba(172, 172, 172, 0.7);
+  transition: all 0.5s;
+  
+  
+}
+.footer-github svg:hover{
+  
+  fill: aliceblue;
+  
+}
+.footer-linkedin svg{
+  fill: rgba(172, 172, 172, 0.7);
+  transition: all 0.5s;
+}
+.footer-linkedin svg:hover{
+  fill: aliceblue;
+  
+}
+.footer-instagram svg{
+  fill: rgba(172, 172, 172, 0.7);
+  transition: all 0.5s;
+}
+
+.footer-instagram svg:hover{
+    fill: aliceblue;
+    
+  }
+
+  .card-detail{
+    background-color: rgba(0, 0, 0, 0.80);
+    opacity: 0;
+    transition: all 1s;
+  }
+
+  .card-detail:hover{
+    top: 0;
+    opacity: 1;
+  }
+
+  .modal-form{
+    background-color: rgba(0, 0, 0, 0.60);
+    transition: all 0.5s;
+  }
+
+  .visit-button{
+    transition: all 0.5s;
+  }
+
+  .visit-button:hover{
+    background-color: rgb(12, 68, 170);
+  }
