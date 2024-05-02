@@ -7,7 +7,7 @@ import { Projects } from '../layout/Projects'
 export const MainRouter = () => {
   return (
     <div>
-        <HashRouter>
+        <BrowserRouter>
             <Routes>
                 {/*Layout*/}
                 
@@ -18,7 +18,7 @@ export const MainRouter = () => {
                 
 
             </Routes>
-        </HashRouter>
+        </BrowserRouter>
     </div>
   )
 }
