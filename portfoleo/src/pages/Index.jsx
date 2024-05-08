@@ -7,7 +7,7 @@ import {Footer} from '../layout/Footer'
 
 export const Index = () => {
   return (
-    <div className='index h-full  container items-center overflow-hidden'>
+    <div className='index h-full items-center overflow-hidden'>
 
       <div className='overflow-hidden border-solid border-2'>
         <div className='block-img h-screen '></div>
